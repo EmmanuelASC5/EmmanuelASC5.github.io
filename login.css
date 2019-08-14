@@ -1,34 +1,3 @@
-/* * {
-    margin: 0;
-    padding: 0;
-}
-
-body, html {
-    width: 100%;
-    height: 100%;
-}
-
-
-header{
-    display: flex;
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-image: url("screenshot__2_.png");
-    background-attachment: fixed;
-    height: 85%;
-    width: 100%;
-    
-}
-
-.links {
-    width: 50%;
-    display: flex;
-    justify-content: space-around; 
-    padding: 650px 0px 0px 350px;
-    flex-wrap: wrap;
-    font-size: 20px;
-} */
-
 
 
 * {
@@ -51,7 +20,7 @@ body, html {
     background-attachment: scroll;
     width: 100vw;
     height: 80vh;
-    padding: 0px 0px 25px;
+    padding: 0px 0px 0px;
 }
 
 nav {
@@ -76,6 +45,7 @@ nav {
     background-attachment: scroll;
     height: 100%;
     width: 100%;
+    
 }
 
 .news {
@@ -90,4 +60,8 @@ nav {
     background-attachment: scroll;
     height: 100%;
     width: 100%;
+}
+
+.links{
+    background-image: linear-gradient(to bottom,rgb(200, 150, 255),white);
 }

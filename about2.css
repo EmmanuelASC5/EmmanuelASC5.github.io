@@ -1,5 +1,6 @@
 body{
     background-color: rgba(75, 13, 233, 0.421);
+    font-family: 'Russo One', sans-serif;
 }
 nav{
     display: flex;
@@ -30,4 +31,10 @@ h3{
     display: flex;
     flex-flow: column;
     padding-left: 10px;
+}
+
+button{
+    background: powderblue;
+    font-family: 'Russo One', sans-serif;
+    font-size: 30px;
 }
