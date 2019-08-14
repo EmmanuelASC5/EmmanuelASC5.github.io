@@ -11,16 +11,19 @@ div{
     padding: 10px;
     margin: 10px;
     margin-right:10px;
-    justify-content: space-around
+    justify-content: space-around;
+ 
 }
 p {
     display: flex;
     margin: 5px;
-   font-size: 400%;
+   font-size: 225%;
     align-items:center;
 }
 .p{
     display: flex;
+    flex-direction: column;
+    overflow-wrap: break-word;
     
 }
 img{
@@ -38,11 +41,37 @@ body{
 
 #logo{
     width: 100vw;
-    height: 60vh
+    height: auto
 
 }
 
 button{
 background: powderblue;
   font-family: 'Russo One', sans-serif;
+}
+select{
+    margin: 10px
+}
+@media (max-width: 600px) {
+    #logo{
+        width: 100%;
+        height: auto;
+    }
+    body {
+       flex-direction: column;
+       padding: 0;
+       text-align: center;
+
+    }
+   p{
+    overflow-wrap: break-word;
+    font-size: 100%;
+  }
+  img{
+      width:25%;
+  }
+  .p{
+      display: flex;
+      overflow: wrap;
+  }
 }

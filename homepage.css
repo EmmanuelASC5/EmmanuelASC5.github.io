@@ -76,16 +76,16 @@ nav {
     background-image: linear-gradient(to bottom,rgb(200, 150, 255),white);
 }
 @media (max-width: 600px) {
-    .logo{
-        width: 
-    }
+   
+    
     body {
        flex-direction: column;
-       padding: 0;
+       padding: 2%;
        text-align: center;
 
     }
     nav{
-        width: 100%
+        display: flex;
+        
     }
 }
