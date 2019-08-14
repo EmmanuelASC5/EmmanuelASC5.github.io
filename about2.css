@@ -1,0 +1,33 @@
+body{
+    background-color: rgba(75, 13, 233, 0.421);
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(188, 104, 233);
+  
+}
+
+img{
+    width: 30%;
+    float: left;
+    scroll-margin-left: 5px;
+}
+p{
+    font-size:35px;
+}
+h1{
+    font-size: 300%
+}
+h2{
+    font-size: 300%
+}
+h3{
+    font-size: 300%
+}
+.person{
+    border: black solid;
+    display: flex;
+    flex-flow: column;
+    padding-left: 10px;
+}
