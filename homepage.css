@@ -76,7 +76,9 @@ nav {
     background-image: linear-gradient(to bottom,rgb(200, 150, 255),white);
 }
 @media (max-width: 600px) {
-   
+   div{
+       width: 100%
+   }
     
     body {
        flex-direction: column;
@@ -86,6 +88,6 @@ nav {
     }
     nav{
         display: flex;
-        
+
     }
 }

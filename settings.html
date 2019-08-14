@@ -112,6 +112,15 @@
   <br>
 
 </form>
+
+<h2>Gender </h2>
+
+<form action="homepage.html">
+  Choose from: Male, Female, Other<br>
+  <input id="sex" type="text" name="username">
+  <br>
+
+</form>
   
 <form action="">
   <button onclick="writeData(event)">Save</button>
@@ -136,6 +145,7 @@
       document.getElementById('location').value = data.val().Location
       document.getElementById('sport').value = data.val().Sport
       document.getElementById('level').value = data.val().SkillLevel
+      document.getElementById('sex').value = data.val().Gender
       
 
     })
@@ -151,7 +161,8 @@
         Age: document.getElementById("age").value,
         Location: document.getElementById("location").value,
         Sport: document.getElementById("sport").value,
-        SkillLevel: document.getElementById("level").value
+        SkillLevel: document.getElementById("level").value,
+        Gender.getElementById("sex").value
         
         
     });

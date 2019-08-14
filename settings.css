@@ -1,6 +1,7 @@
 body{
     background-color: rebeccapurple;
     font-family: 'Russo One', sans-serif;
+    overflow-x: hidden;
 }
 
 
