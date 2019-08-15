@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 body, html {
@@ -49,7 +50,7 @@ nav {
 }
 
 .news {
-    margin: 20px 0px;
+    /* margin: 20px 0px; */
     text-align: center;
     font-size: 30px;
     font-family: 'Thasadith', sans-serif;
@@ -63,5 +64,10 @@ nav {
 }
 
 .links{
+    background-image: linear-gradient(to bottom,rgb(200, 150, 255),white);
+}
+
+.space{
+    padding: 15px;
     background-image: linear-gradient(to bottom,rgb(200, 150, 255),white);
 }

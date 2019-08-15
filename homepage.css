@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 body, html {
@@ -37,7 +38,7 @@ nav {
     text-align: center;
     font-size: 30px;
     font-family: 'Thasadith', sans-serif;
-    padding: 10px;
+    /* padding: 10px; */
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url("kingball.jpg");
@@ -47,11 +48,11 @@ nav {
 }
 
 .news {
-    margin: 20px 0px;
+    /* margin: 20px 0px; */
     text-align: center;
     font-size: 30px;
     font-family: 'Thasadith', sans-serif;
-    padding: 10px;
+    /* padding: 10px; */
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url("admin.jpg");
@@ -64,7 +65,7 @@ nav {
     text-align: center;
     font-size: 30px;
     font-family: 'Thasadith', sans-serif;
-    padding: 10px;
+/* padding: 10px; */
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url("carousel-large.jpg");
@@ -90,4 +91,9 @@ nav {
         display: flex;
 
     }
+}
+
+.space{
+    padding: 15px;
+    background-image: linear-gradient(to bottom,rgb(200, 150, 255),white);
 }
