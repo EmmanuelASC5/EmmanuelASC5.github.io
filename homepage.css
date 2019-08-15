@@ -42,6 +42,7 @@ nav {
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url("kingball.jpg");
+    width: 100vw;
     background-attachment: scroll;
     height: 100%;
     width: 100%;
@@ -75,6 +76,9 @@ nav {
 }
 .links{
     background-image: linear-gradient(to bottom,rgb(200, 150, 255),white);
+    display: flex;
+    justify-content: space-around;
+    justify-content: space-between;
 }
 @media (max-width: 1000px) {
     div{
@@ -99,6 +103,8 @@ nav {
          align-content: center;
  
      }
+     display: flex;
+    justify-content: space-around;
  }
 
 .space{
