@@ -76,24 +76,36 @@ nav {
 .links{
     background-image: linear-gradient(to bottom,rgb(200, 150, 255),white);
 }
-@media (max-width: 600px) {
-   div{
-       width: 100%
-   }
-    
-    body {
-       flex-direction: column;
-       padding: 2%;
-       text-align: center;
-
+@media (max-width: 1000px) {
+    div{
+        width: 100%
     }
-    nav{
-        display: flex;
-
-    }
-}
+     .logo{
+        width: 100%;
+        position: center;
+     }
+     body {
+        flex-direction: column;
+        padding: 2%;
+        text-align: center;
+ 
+     }
+     nav{
+         margin: 0px 0px 0px 0px;
+         padding: 0px 0px 0px 0px;
+         display: flex;
+         flex-direction: row;
+         justify-content: space-between; 
+         align-content: center;
+ 
+     }
+ }
 
 .space{
     padding: 15px;
     background-image: linear-gradient(to bottom,rgb(200, 150, 255),white);
+}
+
+p{
+color: whitesmoke;
 }
