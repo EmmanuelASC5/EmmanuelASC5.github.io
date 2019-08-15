@@ -63,6 +63,8 @@ nav {
 
 .links{
     background-image: linear-gradient(to bottom,rgb(200, 150, 255),white);
+    display: flex;
+    justify-content: space-around;
 }
 
 .space{
